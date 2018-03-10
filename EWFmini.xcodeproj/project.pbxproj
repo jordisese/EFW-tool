@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D07AB2E2053FAD9002656C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07AB2D2053FAD9002656C1 /* AppDelegate.m */; };
+		8D07AB312053FAD9002656C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07AB302053FAD9002656C1 /* ViewController.m */; };
+		8D07AB332053FAD9002656C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D07AB322053FAD9002656C1 /* Assets.xcassets */; };
+		8D07AB362053FAD9002656C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D07AB342053FAD9002656C1 /* Main.storyboard */; };
+		8D07AB392053FAD9002656C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07AB382053FAD9002656C1 /* main.m */; };
+		8D07AB442053FAD9002656C1 /* EWFminiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07AB432053FAD9002656C1 /* EWFminiTests.m */; };
+		8D07AB4F2053FAD9002656C1 /* EWFminiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D07AB4E2053FAD9002656C1 /* EWFminiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D07AB402053FAD9002656C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D07AB212053FAD9002656C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D07AB282053FAD9002656C1;
+			remoteInfo = EWFmini;
+		};
+		8D07AB4B2053FAD9002656C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D07AB212053FAD9002656C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D07AB282053FAD9002656C1;
+			remoteInfo = EWFmini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D07AB292053FAD9002656C1 /* EWFmini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EWFmini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D07AB2C2053FAD9002656C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D07AB2D2053FAD9002656C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D07AB2F2053FAD9002656C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8D07AB302053FAD9002656C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D07AB322053FAD9002656C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D07AB352053FAD9002656C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D07AB372053FAD9002656C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D07AB382053FAD9002656C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D07AB3A2053FAD9002656C1 /* EWFmini.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EWFmini.entitlements; sourceTree = "<group>"; };
+		8D07AB3F2053FAD9002656C1 /* EWFminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWFminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D07AB432053FAD9002656C1 /* EWFminiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWFminiTests.m; sourceTree = "<group>"; };
+		8D07AB452053FAD9002656C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D07AB4A2053FAD9002656C1 /* EWFminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EWFminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D07AB4E2053FAD9002656C1 /* EWFminiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EWFminiUITests.m; sourceTree = "<group>"; };
+		8D07AB502053FAD9002656C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D07AB262053FAD9002656C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D07AB3C2053FAD9002656C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D07AB472053FAD9002656C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D07AB202053FAD9002656C1 = {
+			isa = PBXGroup;
+			children = (
+				8D07AB2B2053FAD9002656C1 /* EWFmini */,
+				8D07AB422053FAD9002656C1 /* EWFminiTests */,
+				8D07AB4D2053FAD9002656C1 /* EWFminiUITests */,
+				8D07AB2A2053FAD9002656C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D07AB2A2053FAD9002656C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D07AB292053FAD9002656C1 /* EWFmini.app */,
+				8D07AB3F2053FAD9002656C1 /* EWFminiTests.xctest */,
+				8D07AB4A2053FAD9002656C1 /* EWFminiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D07AB2B2053FAD9002656C1 /* EWFmini */ = {
+			isa = PBXGroup;
+			children = (
+				8D07AB2C2053FAD9002656C1 /* AppDelegate.h */,
+				8D07AB2D2053FAD9002656C1 /* AppDelegate.m */,
+				8D07AB2F2053FAD9002656C1 /* ViewController.h */,
+				8D07AB302053FAD9002656C1 /* ViewController.m */,
+				8D07AB322053FAD9002656C1 /* Assets.xcassets */,
+				8D07AB342053FAD9002656C1 /* Main.storyboard */,
+				8D07AB372053FAD9002656C1 /* Info.plist */,
+				8D07AB382053FAD9002656C1 /* main.m */,
+				8D07AB3A2053FAD9002656C1 /* EWFmini.entitlements */,
+			);
+			path = EWFmini;
+			sourceTree = "<group>";
+		};
+		8D07AB422053FAD9002656C1 /* EWFminiTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D07AB432053FAD9002656C1 /* EWFminiTests.m */,
+				8D07AB452053FAD9002656C1 /* Info.plist */,
+			);
+			path = EWFminiTests;
+			sourceTree = "<group>";
+		};
+		8D07AB4D2053FAD9002656C1 /* EWFminiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D07AB4E2053FAD9002656C1 /* EWFminiUITests.m */,
+				8D07AB502053FAD9002656C1 /* Info.plist */,
+			);
+			path = EWFminiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D07AB282053FAD9002656C1 /* EWFmini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D07AB532053FAD9002656C1 /* Build configuration list for PBXNativeTarget "EWFmini" */;
+			buildPhases = (
+				8D07AB252053FAD9002656C1 /* Sources */,
+				8D07AB262053FAD9002656C1 /* Frameworks */,
+				8D07AB272053FAD9002656C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EWFmini;
+			productName = EWFmini;
+			productReference = 8D07AB292053FAD9002656C1 /* EWFmini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D07AB3E2053FAD9002656C1 /* EWFminiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D07AB562053FAD9002656C1 /* Build configuration list for PBXNativeTarget "EWFminiTests" */;
+			buildPhases = (
+				8D07AB3B2053FAD9002656C1 /* Sources */,
+				8D07AB3C2053FAD9002656C1 /* Frameworks */,
+				8D07AB3D2053FAD9002656C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D07AB412053FAD9002656C1 /* PBXTargetDependency */,
+			);
+			name = EWFminiTests;
+			productName = EWFminiTests;
+			productReference = 8D07AB3F2053FAD9002656C1 /* EWFminiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D07AB492053FAD9002656C1 /* EWFminiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D07AB592053FAD9002656C1 /* Build configuration list for PBXNativeTarget "EWFminiUITests" */;
+			buildPhases = (
+				8D07AB462053FAD9002656C1 /* Sources */,
+				8D07AB472053FAD9002656C1 /* Frameworks */,
+				8D07AB482053FAD9002656C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D07AB4C2053FAD9002656C1 /* PBXTargetDependency */,
+			);
+			name = EWFminiUITests;
+			productName = EWFminiUITests;
+			productReference = 8D07AB4A2053FAD9002656C1 /* EWFminiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D07AB212053FAD9002656C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jordi Sese Puertolas";
+				TargetAttributes = {
+					8D07AB282053FAD9002656C1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8D07AB3E2053FAD9002656C1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D07AB282053FAD9002656C1;
+					};
+					8D07AB492053FAD9002656C1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8D07AB282053FAD9002656C1;
+					};
+				};
+			};
+			buildConfigurationList = 8D07AB242053FAD9002656C1 /* Build configuration list for PBXProject "EWFmini" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D07AB202053FAD9002656C1;
+			productRefGroup = 8D07AB2A2053FAD9002656C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D07AB282053FAD9002656C1 /* EWFmini */,
+				8D07AB3E2053FAD9002656C1 /* EWFminiTests */,
+				8D07AB492053FAD9002656C1 /* EWFminiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D07AB272053FAD9002656C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07AB332053FAD9002656C1 /* Assets.xcassets in Resources */,
+				8D07AB362053FAD9002656C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D07AB3D2053FAD9002656C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D07AB482053FAD9002656C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D07AB252053FAD9002656C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07AB312053FAD9002656C1 /* ViewController.m in Sources */,
+				8D07AB392053FAD9002656C1 /* main.m in Sources */,
+				8D07AB2E2053FAD9002656C1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D07AB3B2053FAD9002656C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07AB442053FAD9002656C1 /* EWFminiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D07AB462053FAD9002656C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07AB4F2053FAD9002656C1 /* EWFminiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D07AB412053FAD9002656C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D07AB282053FAD9002656C1 /* EWFmini */;
+			targetProxy = 8D07AB402053FAD9002656C1 /* PBXContainerItemProxy */;
+		};
+		8D07AB4C2053FAD9002656C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D07AB282053FAD9002656C1 /* EWFmini */;
+			targetProxy = 8D07AB4B2053FAD9002656C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D07AB342053FAD9002656C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D07AB352053FAD9002656C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D07AB512053FAD9002656C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8D07AB522053FAD9002656C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D07AB542053FAD9002656C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EWFmini/EWFmini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EWFmini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSP.EWFmini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D07AB552053FAD9002656C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EWFmini/EWFmini.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EWFmini/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSP.EWFmini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D07AB572053FAD9002656C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EWFminiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSP.EWFminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWFmini.app/Contents/MacOS/EWFmini";
+			};
+			name = Debug;
+		};
+		8D07AB582053FAD9002656C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EWFminiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSP.EWFminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EWFmini.app/Contents/MacOS/EWFmini";
+			};
+			name = Release;
+		};
+		8D07AB5A2053FAD9002656C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EWFminiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSP.EWFminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EWFmini;
+			};
+			name = Debug;
+		};
+		8D07AB5B2053FAD9002656C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EWFminiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JSP.EWFminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EWFmini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D07AB242053FAD9002656C1 /* Build configuration list for PBXProject "EWFmini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D07AB512053FAD9002656C1 /* Debug */,
+				8D07AB522053FAD9002656C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D07AB532053FAD9002656C1 /* Build configuration list for PBXNativeTarget "EWFmini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D07AB542053FAD9002656C1 /* Debug */,
+				8D07AB552053FAD9002656C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D07AB562053FAD9002656C1 /* Build configuration list for PBXNativeTarget "EWFminiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D07AB572053FAD9002656C1 /* Debug */,
+				8D07AB582053FAD9002656C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D07AB592053FAD9002656C1 /* Build configuration list for PBXNativeTarget "EWFminiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D07AB5A2053FAD9002656C1 /* Debug */,
+				8D07AB5B2053FAD9002656C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D07AB212053FAD9002656C1 /* Project object */;
+}
